@@ -7,3 +7,5 @@ Background: URLX finds URLs and we want to crawl them and save meta data to Goog
 Things we want this todo:
  - Be able to process 100M total per day (x per second, across x VMs).
  - Make sure not to get abuse complaints (probably run through proxies in the same region)
+ - Be able to save the following info at a minimum:
+       status code, title
